@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="..."
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <img width="174" height="42" src="https://stimg.cardekho.com/pwa/img/carDekho-newLogo.svg" loading="eager"
+            alt="CarDekho.com" class="custom-left-margin">
+    </div>
+    <div class="search">
+        <input type="text" class="box" placeholder="Search cars eg Honda Elevate">
+        <button class="button">Search</button>
+    </div>
+    <div class="dropdown">
+        <p>English
+            <i class="fa-solid fa-caret-down"></i>
+        </p>
+    </div>
+    <span class="heart"> <i class="fa-regular fa-heart"></i></span>
+    <span class="user"><i class="fa-regular fa-user"></i> </span>
+    <span class="login">Login/Register</span>
+    <div class="card text-center ">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav">
+                    <a class="nav-link disabled" href="#">
+                        NEW CARS
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">
+                        BUY & SELL USED CARS
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">
+                        NEWS REVIEWS AND VIDEOS
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">
+                        CAR SERVICES
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                <li class="city">
+                    <a class="nav-link disabled" aria-disabled="true">
+                        Select City
+                        <i class="fa-solid fa-location-dot"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="mainbox">
+        <div class="card custom-card" style="width: 25rem; margin-left:98px;">
+            <div class="card-body margin-left:10px;">
+                <h5 class="card-title">Find Your Right Car</h5>
+                <br>
+                <button class="new" type="button" onclick="alert('New Cars Are Here!')">New Car</button>
+                <button class="used" type="button" onclick="alert('Used Cars Are Here!')">Used Car</button>
+                <br>
+                <br>
+                <i class="fa-regular fa-circle-dot diff-icon"><span class="budget">By Budget</span> </i>
+                <i class="fa-regular fa-circle-dot custom-icon"><span class="budget">By Brand</span></i>
+                <br>
+                <br>
+                <div class="form-check">
+
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Select Budget
+                    </label>
+                </div>
+                <div class="form-check">
+
+                    <label class="form-check-label" for="flexCheckChecked">
+                        Select Vehicle
+                    </label>
+                </div>
+                <button class="custom-button">SEARCH</button>
+                <P class="next">Advanced Search <i class="fa-solid fa-arrow-right"></i></P>
+            </div>
+        </div>
+        <div class="group">
+            <p class="text">LAUNCHED!</p>
+            <p class="second">Tata Punch EV’s</p>
+            <p class="third">Prices Start At Rs 10.99 Lakh</p>
+
+        </div>
+        <img src="/images/carr.png" alt="Description of the image" class="custom-image">
+    </div>
+    <div class="carlist">
+        <h2 class="bumper"> The most watched cars!!!!</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SUV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Hatchback</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sedan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">MUV</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Luxury</a>
+            </li>
+        </ul>
+        <div class="addcars">
+            <div class="add" style="width: 18rem;">
+                <img src="/images/car1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MAZDA CX-5</h5>
+                    <p class="card-text">Rs.11-20.15 Lakh</p>
+                    <a href="#" class="btn btn-primary custom-btn">View Seller Details</a>
+                </div>
+            </div>
+            <div class="add" style="width: 18rem;">
+                <img src="/images/carhyundai.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">HYUNDAI</h5>
+                    <p class="card-text">Rs.11.25-17.20 Lakh</p>
+                    <a href="#" class="btn btn-primary custom-btn">View Seller Details</a>
+                </div>
+            </div>
+            <div class="add" style="width: 18rem;">
+                <img src="/images/car3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MAZHINDRA</h5>
+                    <p class="card-text">Rs.6-10.10 Lakh</p>
+                    <a href="#" class="btn btn-primary  custom-btn">View Seller Details</a>
+                </div>
+            </div>`
+            <div class="add" style="width: 18rem;">
+                <img src="/images/car4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">SELTOS</h5>
+                    <p class="card-text">Rs.10-30 Lakh</p>
+                    <a href="#" class="btn btn-primary custom-btn">View Seller Details</a>
+                </div>
+            </div>`
+
+        </div>
+
+    </div>
+    <h5 class="view">View all SUV Cars</h5>
+
+    <div class="carlist">
+        <h2 class="bumper">Latest Cars</h2>
+
+
+        <div class="addcars">
+            <div class="add" style="width: 18rem;">
+                <img src="/images/lat1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Land Rover Range Rover
+                    </h5>
+                    <p class="card-text">Rs2.39 - 4.30 Cr</p>
+                    <a href="#" class="btn btn-primary custom-btn">View Seller Details</a>
+                </div>
+            </div>
+            <div class="add" style="width: 18rem;">
+                <img src="/images/lat2.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">MG ZS EV
+                    </h5>
+                    <p class="card-text"> Rs18.98 - 25.08 Lakh</p>
+                    <a href="#" class="btn btn-primary custom-btn">View Seller Details</a>
+                </div>
+            </div>
+            <div class="add" style="width: 18rem;">
+                <img src="/images/lat3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Mercedes-Benz GLA
+                    </h5>
+                    <p class="card-text"> Rs50.50 - 56.90 Lakh</p>
+                    <a href="#" class="btn btn-primary  custom-btn">View Seller Details</a>
+                </div>
+            </div>`
+            <div class="add" style="width: 18rem;">
+                <img src="/images/lat4.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Land Rover Range
+                    </h5>
+                    <p class="card-text"> Rs67.90 Lakh</p>
+                    <a href="#" class="btn btn-primary custom-btn">View Seller Details</a>
+                </div>
+            </div>`
+
+        </div>
+
+    </div>
+    <h5 class="view">View all latest Cars</h5>
+
+    <div class="carlist">
+        <h2 class="bumper">Upcoming cars</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">New</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Used</a>
+            </li>
+
+            <div class="addcars">
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/car1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MAZDA CX-5</h5>
+                        <p class="card-text">Rs.11-20.15 Lakh</p>
+                        <a href="#" class="btn btn-primary custom-btn">Alert When Launched</a>
+                    </div>
+                </div>
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/carhyundai.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra Bolero</h5>
+                        <p class="card-text">
+                            Rs10 Lakh</p>
+                        <a href="#" class="btn btn-primary custom-btn">Alert When Launched</a>
+                    </div>
+                </div>
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/car3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra Thar
+                        </h5>
+                        <p class="card-text">Rs15 Lakh</p>
+                        <a href="#" class="btn btn-primary  custom-btn">Alert When Launched</a>
+                    </div>
+                </div>`
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/up4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mahindra XUV300 2024</h5>
+                        <p class="card-text">Rs.9 Lakh</p>
+                        <a href="#" class="btn btn-primary custom-btn">Alert When Launched</a>
+                    </div>
+                </div>`
+
+            </div>
+
+    </div>
+    <h5 class="view">View all Upcoming cars</h5>
+    <div class="carlist">
+        <h2 class="bumper">Electric cars</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Popular</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Upcoming</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Latest</a>
+            </li>
+
+            <div class="addcars">
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/elec1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MAZDA CX-5</h5>
+                        <p class="card-text">Rs.11-20.15 Lakh</p>
+                        <a href="#" class="btn btn-primary custom-btn">Check Feburary Offers</a>
+                    </div>
+                </div>
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/elec2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">HYUNDAI</h5>
+                        <p class="card-text">Rs.11.25-17.20 Lakh</p>
+                        <a href="#" class="btn btn-primary custom-btn">Check Feburary Offers</a>
+                    </div>
+                </div>
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/elec3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tata Nexon EV
+                        </h5>
+                        <p class="card-text">Rs.14.74 - 19.99 Lakh</p>
+                        <a href="#" class="btn btn-primary  custom-btn">Check Feburary Offers</a>
+                    </div>
+                </div>`
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/elec4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MG Comet EV
+                        </h5>
+                        <p class="card-text">Rs.6.99 - 8.58 Lakh</p>
+                        <a href="#" class="btn btn-primary custom-btn">Check Feburary Offers</a>
+                    </div>
+                </div>`
+
+            </div>
+
+    </div>
+    <h5 class="view">View all Electric cars</h5>
+    <div class="carlist">
+        <h2 class="bumper">Newly Launched! Car Services</h2>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">New</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Used</a>
+            </li>
+
+            <div class="addcars">
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/service1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Car Service History Checks History
+                        </h5>
+                        <p class="card-text">Rs.
+                            299₹50040% OFF</p>
+                        <a href="#" class="btn btn-primary custom-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/service2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CarDekho Subscription
+                        </h5>
+                        <p class="card-text"> Rs.
+                            2,600₹3,20018% OFF</p>
+                        <a href="#" class="btn btn-primary custom-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/service3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Challan Check Online Form</h5>
+                        <p class="card-text">Online check See Details</p>
+                        <a href="#" class="btn btn-primary  custom-btn">View Details</a>
+                    </div>
+                </div>`
+                <div class="add" style="width: 18rem;">
+                    <img src="/images/service4.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CarDekho(OBD) Subscription
+                        </h5>
+                        <p class="card-text"> Rs.
+                            1,800₹2,00010% OFF</p>
+                        <a href="#" class="btn btn-primary custom-btn">View Details</a>
+                    </div>
+                </div>`
+
+            </div>
+
+    </div>
+    <h5 class="view">View All Car Services</h5>
+
+
+
+    <div class="manymore">
+        <h2 class="know">Know more to choose better</h2>
+
+        <ul class="navigation nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Expert Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Featured Stories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Videos</a>
+            </li>
+        </ul>
+
+        <div class="maincontain">
+            <div class=" custom-cards card mb-3" style="max-width: 540px; margin-left:20px;;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="/images/know1st.jpeg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">MERCEDES</h5>
+                            <p class="card-text">The GLA gets a minor update to help it stay relevant with time. Can
+                                this small update make a big impact?t longer.</p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class=" card mb-3" style="max-width: 540px; margin-left:168px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/know2.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">MERCEDES</h5>
+                            <p class="card-text">Does adding the convenience factor of an automatic in the C3 Aircross’
+                                very-practical but not-so-feature-rich package </p>
+                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <div class="footer">
+        <div><span class="badge"><i class="fa-solid fa-award"></i> </span>
+            <span class="india">India’s#1 Largest Auto portal</span>
+        </div>
+        <div class="off">
+            <span class="discount"><i class="fa-solid fa-tags"></i>
+            </span>
+            <span class="offer"> Offers</span>
+        </div>
+        <div class="sale">
+            <span class="iconfoot"><i class="fa-solid fa-car-rear"></i> </span>
+            <span class="salestext"> Offers</span>
+        </div>
+        <div class="sale">
+            <span class="iconfoot"><i class="fa-solid fa-car-side"></i> </span>
+            <span class="salestext"> Compare</span>
+        </div>
+
+    </div>
+
+    <div class="last">
+        <div class="about">
+            <h6 style="color:black; font-weight:bold; font-size:large;">ABOUT CAR DEKHO</h6>
+            <p>About </p>
+            <p>Careers With Us</p>
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Corporate Policies</p>
+            <p>Investors</p>
+            <p>FAQs</p>
+        </div>
+        <div class="contact">
+            <h6 style="color:black; font-weight:bold; font-size:large;">CONTACT WITH US</h6>
+            <p>Feedback </p>
+            <p>Contact Us</p>
+            <p>Advertise With Us</p>
+        </div>
+        <div class="others">
+            <h6 style="color:black; font-weight:bold; font-size:large;">OTHERS</h6>
+            <p>Health Insurance</p>
+            <p>Term Insurance</p>
+            <p>Life Insurance</p>
+            <p>Crack-ED</p>
+            <p>Personal Loan</p>
+            <p>TyreDekho</p>
+            <p>BatteryDekho</p>
+            <p>Girnar Vision Fund</p>
+            <p>Emergency Response</p>
+            <p>Car Sales Trends</p>
+
+        </div>
+        <div class="sponser">
+            <h6 style="color:black; font-weight:bold; font-size:large;">EXPERIENCE CARDEKHO APP</h6>
+            <div class="app">
+                <img src="images/apps.png" alt="Description of the image" width="300" height="90">
+            </div>
+
+            <div class="otherweb">
+                <p style="color:black; font-weight:bold; font-size:large;">CARDEKHO GROUP VENTURES</p>
+                <img src="images/bike-removebg-preview.png" alt="Description of the image" width="150" height="50"
+                    border-radius="30px" ;>
+                <img src="images/ruppy-removebg-preview.png" alt="Description of the image" width="150" height="50"
+                    border-radius="30px" ;>
+            </div>
+            <img src="images/insurance-removebg-preview.png" alt="Description of the image" width="300" height="70"
+                border-radius="30px" ;>
+            <div>
+                <img src="images/revv-removebg-preview.png" alt="Description of the image" width="150" height="50"
+                    border-radius="30px" ;>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="connect">
+        <p style="color:grey; margin-left: 20px; margin-top:20px; position: absolute;">© 2024 Girnar Software Pvt.
+            Ltd.
+        </p>
+        <div class="address">
+            <p> Connect</p>
+            <i class="fa-brands fa-facebook-f" style="margin-left: 30px;"></i>
+            <i class="fa-brands fa-youtube" style="margin-left: 30px;"></i>
+            <i class="fa-brands fa-instagram" style="margin-left: 30px;"></i>
+            <i class="fa-brands fa-linkedin-in" style="margin-left: 30px;"></i>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+
+
+
+</html>

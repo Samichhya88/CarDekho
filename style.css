@@ -1,0 +1,349 @@
+.custom-left-margin {
+    margin-left: 138px;
+    margin-top: 15px;
+}
+.search{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 164px;
+    padding:20px;
+    
+}
+.header{
+    display: inline-block;
+    vertical-align: middle;
+}
+.button{
+    width: 78px;
+    padding:12px;
+    background-color: black;
+    color:white;
+    
+}
+.box{
+    width: 396px;
+    height:49px;
+   
+}
+.dropdown{
+    display: inline-block;
+    margin-left: 164px;
+    font-size: 14px;
+    color:rgba(36,39,44,.7);
+    text-decoration-line: underline;
+}
+.heart{
+    display: inline-block;
+    margin-left: 20px;
+}
+.user{
+    display: inline-block;
+    margin-left: 20px;
+    font-size:14px ;
+
+}
+.nav{
+    margin-left: -8px; 
+}
+.nav-items{
+    margin-left: 10px;
+    color: black;
+}
+.nav-item{
+    color:black;
+}
+.nav-link{
+    margin-left: 10px;
+    color:black;
+}
+.city{
+    margin-left: 354px;
+
+}
+.mainbox{
+    width:90%;
+    background-color: skyblue;
+    height: 546px;
+    margin-left: 70px;
+    margin-right: 30px; 
+    position:relative;
+}
+.custom-card{
+    margin-top: 44px;
+    position: absolute;
+}
+.card-title{
+    margin-left: 86px;
+    font-weight: bold;
+   
+}
+.new{
+    background-color: black;
+    color:white;
+    height:50px;
+   width: 100px;
+   margin-left: 67px;
+
+}
+
+.used{
+    margin-left: 25px;
+   height:50px;
+   width: 100px;
+}
+.budget{
+    margin-left:25px;
+ 
+
+}
+.diff-icon{
+    margin-left: 30px;
+}
+.custom.i{
+    margin-left: 30px;
+}
+.custom-icon{
+    margin-left: 40px;
+    color:orangered;
+}
+
+  .custom-button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:24px;
+    padding: 17px 124px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color:orangered
+    
+}
+
+.custom-button:hover {
+    background-color:gray;
+}
+.next{
+    margin-left: 220px;
+    color:grey;
+}
+*{
+    font-family: sans-serif;
+}
+.text{
+    font-size:xx-large;
+    font-weight: bold;
+    color:maroon;
+}
+.second{
+    font-size: xx-large;
+    font-weight: bold;
+    color:maroon;
+   
+}
+.third{
+    font-size: xx-large;
+    font-weight: bold;
+    color:maroon;
+   
+}
+.group{
+    margin-top: 153px;
+    margin-left: 606px;
+    position:absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.custom-image{
+    margin-left: 981px;
+    position: absolute;
+    top:200px;
+    right:0;
+
+
+   
+}
+.carlist{
+    margin-top: 80px;
+    margin-left: 69px;
+    margin-right: 69px;
+    border: 2px solid grey; 
+    padding: 10px;
+
+}
+.form-check{
+    margin-left:19px;
+    border: 2px solid  	#cdcdcd; 
+    padding: 5px;
+    
+}
+.add{
+    margin-top: 20px;
+    margin-left: 57px;
+    position:relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.addcars{
+    display: flex;
+}
+.card-text{
+    margin-left: 80px;
+}
+.btn btn-primary{
+    margin-left:57px;
+}
+.custom-btn{
+    margin-left: 55px;
+    background-color: orangered;
+}
+.bumper{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+   
+}
+.view{
+    margin-top: 0px;
+    padding: 10px;
+   margin-left: 68px;
+   margin-right: 68px;
+   color:darkblue;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.footer{
+    height:107px;
+    padding:12px;
+    background-color:lightblue;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.last{
+    height:50px;
+}
+.badge{
+font-size: 56px;
+margin-left: 30px;
+}
+.india{
+    margin-left: -32px;
+    font-size: larger;
+    color: white;
+}
+
+
+.discount{
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 56px;
+    color: white;
+}
+.offer{
+    font-size: larger;
+    color: white;
+}
+.off{
+    margin-left:130px;
+
+}
+.sale{
+    margin-left:228px;
+  
+
+}
+.iconfoot{
+    font-size: 56px;
+    color: white;
+
+
+}
+.salestext{
+    color:white;
+}
+.last{
+    background-color: aliceblue;
+    position: relative;
+    height:500px;
+    display:flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.about{
+    margin-top: 30px;
+    margin-left: 40px;
+    position: absolute;
+    color:grey;
+    font-size: small;
+}
+.contact{
+    margin-left:350px;
+    margin-top:30px;
+    color:grey;
+    font-size: small;
+}
+.others{
+    margin-left:187px;
+    margin-top:30px;
+    color:grey;
+    font-size: small;
+
+}
+.sponser{
+    margin-left:136px;
+    margin-top:30px;
+    position:relative;
+   
+    
+}
+.app{
+    margin-left:-13px;
+    position:absolute;
+}
+.otherweb{
+    margin-top: 105px;
+}
+.connect{
+    background-color: lightblue;
+    height:60px; 
+    
+    
+}
+.address{
+  margin-left:1122px;
+  position: absolute;
+  margin-top:20px;
+  color:black;  
+  display:flex; 
+    
+
+}
+
+    
+
+.manymore{
+    margin-top: 80px;
+  margin-left: 69px;
+  margin-right: 69px;
+  border: 2px solid grey;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.custom-cards{
+   display: flex;
+}
+.navigation{
+    margin-left: -8px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none
+}
+.row{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.maincontain{
+    display: flex;
+    margin-top: 20px;
+    
+}
+
